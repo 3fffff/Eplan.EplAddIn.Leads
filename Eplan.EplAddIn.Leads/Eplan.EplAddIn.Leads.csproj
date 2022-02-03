@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+	<UseWindowsForms>true</UseWindowsForms>
+	<Platforms>AnyCPU;x64</Platforms>
+	<AssemblyName>Eplan.EplAddIn.Leads</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Eplan.EplApi.AFu">
+      <HintPath>N:\epl\Eplan.EplApi.AFu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Baseu">
+      <HintPath>N:\epl\Eplan.EplApi.Baseu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.DataModelu">
+      <HintPath>N:\epl\Eplan.EplApi.DataModelu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.EServicesu">
+      <HintPath>N:\epl\Eplan.EplApi.EServicesu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Guiu">
+      <HintPath>N:\epl\Eplan.EplApi.Guiu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.HEServicesu">
+      <HintPath>N:\epl\Eplan.EplApi.HEServicesu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.MasterDatau">
+      <HintPath>N:\epl\Eplan.EplApi.MasterDatau.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.RecorderToolsu">
+      <HintPath>N:\epl\Eplan.EplApi.RecorderToolsu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.RemoteClientu">
+      <HintPath>N:\epl\Eplan.EplApi.RemoteClientu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Remotingu">
+      <HintPath>N:\epl\Eplan.EplApi.Remotingu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Simulationu">
+      <HintPath>N:\epl\Eplan.EplApi.Simulationu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Starteru">
+      <HintPath>N:\epl\Eplan.EplApi.Starteru.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Systemu">
+      <HintPath>N:\epl\Eplan.EplApi.Systemu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.WebServiceu">
+      <HintPath>N:\epl\Eplan.EplApi.WebServiceu.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
